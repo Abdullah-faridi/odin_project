@@ -1,0 +1,73 @@
+body {
+    background-color: grey;
+    font-family: Arial, sans-serif;
+  }
+  
+  #container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: black;
+  }
+  
+  .inputs {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  #num1 {
+    width: 100%;
+    height: 60px;
+    font-size: 24px;
+    text-align: right;
+    border-radius: 10px;
+    background-color: rgb(92, 111, 102);
+    border: none;
+    padding-right: 10px;
+  }
+  
+  .deletion {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color:rgb(70, 14, 30);
+  }
+  
+  .action-button {
+    flex: 1;
+    margin: 0 5px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(21, 125, 139);
+    border: none;
+    font-size: 16px;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 8px;
+    justify-content: center;
+    background-color:rgb(70, 14, 30);
+  }
+  
+  .button {
+    width: 22%;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(21, 125, 139);
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
