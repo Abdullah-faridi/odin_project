@@ -1,0 +1,197 @@
+
+html,body{
+    background-color:rgb(201, 201, 193);
+    
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color:rgb(123, 118, 95);
+}
+#navi{
+    display: flex;
+    gap:100px;
+}
+ul>li{
+    list-style: none;
+}
+#home,#menu,#about{
+    width: 100px;
+    height: 60px;
+    border-radius:10px;
+    font-size: 15px;
+}
+.content{
+     display: flex;
+   
+     width: 100%;
+     height: 100%;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+}
+.card{
+    margin-top:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:60%;
+    height: 850px;
+    background-color: rgba(224, 194, 154, 0.766);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+
+}
+.restaurantName{
+    
+    background-color:aliceblue;
+    width:50%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    text-align: center;
+}
+.quote{
+    width:85%;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top:50px;
+    padding: 10px;
+    background-color: aliceblue;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    min-height: 150px;
+}
+.hours{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    width:85%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-top:50px;
+}
+.hour-heading{
+    padding: 0px;
+    padding: 10px;
+    margin-bottom:auto;
+}
+
+.days{
+    margin-top: auto;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items:center;
+   gap:5px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    margin-top:50px;
+    width:85%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.about{
+    height: 100%;
+    width:100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+}
+.about-card{
+    margin-top: 20px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(224, 194, 154, 0.766);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    height: 500px;
+}
+.contact-us{
+    background-color:aliceblue;
+    width:50%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    text-align: center;
+}
+.contact-card{
+    width:85%;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aliceblue;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-top:20px;
+    padding:5px;
+}
+.menu{
+    height: 100%;
+    width:100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.menu-card{
+    margin-top:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:60%;
+    background-color: rgba(224, 194, 154, 0.766);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+.menu-heading,.dishes{
+    background-color:aliceblue;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    text-align: center;
+}
+.menu-heading{
+    width:50%;
+}
+.dishes{
+    width:40%;
+}
+.dishes-card{
+    width:85%;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aliceblue;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-top:20px;
+    padding:5px;
+}
+.menu-img{
+   width: 100px;
+   height: 120px;
+   border:1px solid black;
+   border-radius: 5px;
+   margin-left: 180px;
+
+}
+
+
+
+
+
+
+
+
+
+
